@@ -21,13 +21,13 @@ eb logs --cloudwatch-logs [enable | disable] [--cloudwatch-log-source instance |
  To retrieve instance logs: 
 
 ```
-eb logs [-all | --zip | --stream] [--cloudwatch-log-source instance] [--instance instance-id] [--log-group log-group] [environment-name]
+eb logs [--all | --zip | --stream] [--cloudwatch-log-source instance] [--instance instance-id] [--log-group log-group] [environment-name]
 ```
 
  To retrieve environment health logs: 
 
 ```
-eb logs [-all | --zip | --stream] --cloudwatch-log-source environment-health [environment-name]
+eb logs [--all | --zip | --stream] --cloudwatch-log-source environment-health [environment-name]
 ```
 
 ## Options<a name="eb3-logsoptions"></a>
